@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EV.Fundings.Api</name>
+    </assembly>
+    <members>
+        <member name="M:EV.Fundings.Api.Controllers.FundingController.GetAll">
+            <summary>
+            Get all the fundings
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EV.Fundings.Api.Controllers.FundingController.Get(System.Int32)">
+            <summary>
+            Get the elevator with id passed
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EV.Fundings.Api.Controllers.FundingController.Update(EV.Fundings.Api.Models.ResourceModels.FundingModel)">
+            <summary>
+            Updates a funding investment
+            </summary>
+            <param name="fundingModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EV.Fundings.Api.Helpers.ServiceCollectionExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Extension method adding swagger to the DI container 
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>
